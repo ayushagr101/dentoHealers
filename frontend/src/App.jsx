@@ -1,8 +1,9 @@
 import React from "react";
+import Hero from "./components/Home/Hero";
+import Services from "./components/Home/Services";
+import About from "./components/Home/About";
+import Footer from "./components/Common/Footer";
 import Header from "./components/Header";
-import Hero from "./components/home/Hero";
-import Services from "./components/home/Services";
-import About from "./components/home/About";
 import Team from "./components/home/Team";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 				<About />
 				<Team />
 			</main>
+			<Footer />
 		</div>
 	);
 }

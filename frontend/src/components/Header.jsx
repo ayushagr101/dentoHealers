@@ -26,20 +26,11 @@ function Header() {
 			<div className="container mx-auto px-4">
 				<div className="flex justify-between items-center">
 					<div className="flex items-center">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							className="h-8 w-8 text-blue-600"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								strokeWidth="2"
-								d="M13 10V3L4 14h7v7l9-11h-7z"
-							/>
-						</svg>
+						<img 
+							src="/src/assets/logoRemoveBg.png" 
+							alt="Logo" 
+							className="h-8 w-8" 	
+						/>
 						<span className="ml-2 text-xl font-bold text-gray-800">
 							Dento Healers
 						</span>

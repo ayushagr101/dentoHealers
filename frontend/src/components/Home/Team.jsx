@@ -111,13 +111,6 @@ const Team = () => {
                   </div>
                 </div>
               </div>
-
-              {/* CTA Button */}
-              <div className="pt-2 md:pt-4">
-                <button className="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-teal-600 text-white px-6 md:px-8 py-3 md:py-3.5 rounded-full font-semibold hover:shadow-lg hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105 text-sm md:text-base">
-                  Schedule Your Appointment
-                </button>
-              </div>
             </div>
           </div>
         </div>

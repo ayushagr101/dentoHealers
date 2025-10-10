@@ -28,10 +28,10 @@ const Team = () => {
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-900/90 to-transparent p-6 md:p-8">
                   <h3 className="text-2xl md:text-3xl font-bold text-white mb-1">
-                    Dr. Sarah Mitchell
+                    Dr. Ritee Agarwal
                   </h3>
                   <p className="text-blue-100 text-base md:text-lg">
-                    DDS, General & Cosmetic Dentistry
+                    BDS, General & Cosmetic Dentistry
                   </p>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const Team = () => {
               {/* About Text */}
               <div>
                 <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-3 md:mb-4">
-                  About Dr. Mitchell
+                  About Dr. Agarwal
                 </h3>
                 <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-3 md:mb-4">
                   With over 15 years of experience, Dr. Sarah Mitchell is committed to providing personalized, 

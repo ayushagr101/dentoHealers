@@ -1,10 +1,11 @@
 import React from "react";
 import Hero from "./components/Home/Hero";
-import Services from "./components/Home/Services";
+import Services from "./components/Home/DentalServices/Services";
 import About from "./components/Home/About";
 import Footer from "./components/Common/Footer";
 import Header from "./components/Header";
 import Team from "./components/home/Team";
+import Map from "./components/Home/Map";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 				<Services />
 				<About />
 				<Team />
+				<Map />
 			</main>
 			<Footer />
 		</div>

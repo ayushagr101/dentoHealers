@@ -7,7 +7,7 @@ function Map() {
 			<div className="bg-white rounded-lg shadow-lg overflow-hidden">
 				<div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-4">
 					<h2 className="text-2xl font-bold">Our Location</h2>
-					<p className="text-blue-100 mt-1">Visit us at our office</p>
+					<p className="text-blue-100 mt-1">Visit us at our clinic</p>
 				</div>
 
 				<div className="relative w-full h-96">

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { serviceData } from "./serviceData";
 import ServiceList from "./ServiceList";
+import WhatsAppButton from "../../Common/WhatsappButton";
 
 const Services = () => {
 	const [expandedId, setExpandedId] = useState(null);
@@ -12,9 +13,10 @@ const Services = () => {
 
 	return (
 		<section id="services" className="py-16 bg-gray-50">
+			<WhatsAppButton />
 			<div className="min-h-screen bg-gradient-to-br from-blue-50 to-white py-8 px-4 sm:px-6 lg:px-8">
 				<div className="max-w-4xl mx-auto">
-					<h1 className="text-3xl sm:text-4xl font-bold text-blue-900 text-center mb-8">
+					<h1 className="text-3xl sm:text-4xl font-bold text-blue-900 text-center mb-8 pb-4 border-b-4 border-blue-300">
 						Our Dental Services
 					</h1>
 

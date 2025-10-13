@@ -6,7 +6,7 @@ function Navigation() {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			const sections = ["home", "services", "about", "team", "contact"];
+			const sections = ["home", "services", "about"];
 			const scrollPosition = window.scrollY + 100;
 
 			for (const section of sections) {
@@ -38,7 +38,7 @@ function Navigation() {
 		<>
 			{/* Desktop Navigation */}
 			<nav className="hidden md:flex space-x-8">
-				{["home", "services", "about", "team", "contact"].map((section) => (
+				{["home", "services", "about"].map((section) => (
 					<button
 						key={section}
 						onClick={() => scrollToSection(section)}
@@ -95,7 +95,7 @@ function Navigation() {
 				<div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-md py-4 mt-2">
 					<div className="container mx-auto px-4">
 						<div className="flex flex-col space-y-3">
-							{["home", "services", "about", "team", "contact"].map(
+							{["home", "services", "about"].map(
 								(section) => (
 									<button
 										key={section}

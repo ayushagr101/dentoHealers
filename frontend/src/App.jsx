@@ -6,6 +6,7 @@ import Footer from "./components/Layouts/Footer";
 import Header from "./components/Header";
 import Team from "./components/Home/Team";
 import Map from "./components/Home/Map";
+import AutoScrollingReviews from "./components/Home/AutoScrollingReviews";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<About />
 				<Team />
 				<Map />
+				<AutoScrollingReviews />
 			</main>
 			<Footer />
 		</div>

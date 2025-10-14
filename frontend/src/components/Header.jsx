@@ -27,7 +27,7 @@ function Header() {
 				<div className="flex justify-between items-center">
 					<div className="flex items-center">
 						<img
-							src="/src/assets/logoRemoveBg.png"
+							src="../assets/logoRemoveBg.png"
 							alt="Logo"
 							className="h-8 w-8"
 						/>

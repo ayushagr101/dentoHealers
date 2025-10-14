@@ -12,7 +12,7 @@ const Reviews = () => {
 					Don't just take our word for it
 				</p>
 			</div>
-      <script src="https://elfsightcdn.com/platform.js" async></script>
+			<script src="https://elfsightcdn.com/platform.js" async></script>
 			<div
 				class="elfsight-app-020dc655-aa89-4b9a-a1d6-33c7247c0b60"
 				data-elfsight-app-lazy

@@ -26,10 +26,10 @@ function Header() {
 			<div className="container mx-auto px-4">
 				<div className="flex justify-between items-center">
 					<div className="flex items-center">
-						<img 
-							src="/src/assets/logoRemoveBg.png" 
-							alt="Logo" 
-							className="h-8 w-8" 	
+						<img
+							src="/src/assets/logoRemoveBg.png"
+							alt="Logo"
+							className="h-8 w-8"
 						/>
 						<span className="ml-2 text-xl font-bold text-gray-800">
 							Dento Healers

@@ -95,21 +95,19 @@ function Navigation() {
 				<div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-md py-4 mt-2">
 					<div className="container mx-auto px-4">
 						<div className="flex flex-col space-y-3">
-							{["home", "services", "about"].map(
-								(section) => (
-									<button
-										key={section}
-										onClick={() => scrollToSection(section)}
-										className={`${
-											activeSection === section
-												? "text-blue-600"
-												: "text-gray-600"
-										} hover:text-blue-500 py-2 text-left`}
-									>
-										{section.charAt(0).toUpperCase() + section.slice(1)}
-									</button>
-								)
-							)}
+							{["home", "services", "about"].map((section) => (
+								<button
+									key={section}
+									onClick={() => scrollToSection(section)}
+									className={`${
+										activeSection === section
+											? "text-blue-600"
+											: "text-gray-600"
+									} hover:text-blue-500 py-2 text-left`}
+								>
+									{section.charAt(0).toUpperCase() + section.slice(1)}
+								</button>
+							))}
 						</div>
 					</div>
 				</div>

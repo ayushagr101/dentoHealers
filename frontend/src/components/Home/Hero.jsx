@@ -25,7 +25,7 @@ function Hero() {
 					<div className="md:w-1/2 p-4">
 						<div className="bg-white p-2 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
 							<img
-								src="src/assets/dentistOne.jpeg"
+								src="../assets/dentistOne.jpeg"
 								alt="Dental care"
 								className="rounded w-full h-auto"
 							/>

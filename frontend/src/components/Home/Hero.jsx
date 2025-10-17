@@ -15,7 +15,7 @@ function Hero() {
 				<div className="flex flex-col md:flex-row items-center">
 					<div className="md:w-1/2 mb-8 md:mb-0">
 						<h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">
-							Your Smile, Our Passion
+							Healing Smiles, One Tooth at a Time
 						</h1>
 						<p className="text-lg text-gray-600 mb-6">
 							Experience exceptional dental care with our dedicated team of

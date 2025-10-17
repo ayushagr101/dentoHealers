@@ -24,7 +24,7 @@ function About() {
 					<div className="md:w-1/2 md:pl-12">
 						<h2 className="text-3xl font-bold mb-4">About Our Practice</h2>
 						<p className="text-gray-600 mb-4">
-							At BrightSmile Dental, we've been serving our community for over
+							At Dento Healers, we've been serving our community for over
 							15 years with compassionate, personalized dental care. Our modern
 							facility is equipped with the latest technology to ensure
 							effective and comfortable treatments.

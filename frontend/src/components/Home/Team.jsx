@@ -25,7 +25,7 @@ const Team = () => {
 						<div className="relative max-w-md mx-auto lg:max-w-none">
 							<div className="relative rounded-2xl overflow-hidden shadow-2xl">
 								<img
-									src="../assets/potrait.jpg"
+									src="https://raw.githubusercontent.com/ayushagr101/dentoHealers/refs/heads/main/frontend/src/assets/potrait.jpg"
 									alt="Dr. Ritee Agarwal"
 									className="w-full h-auto object-cover"
 								/>
